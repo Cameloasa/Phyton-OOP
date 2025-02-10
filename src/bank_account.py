@@ -18,10 +18,13 @@ class BankAccount:
 
     #returnera nuvarande saldo (balance)
     def balance(self):
+        """Returnerar nuvarande saldo."""
+        #return self.__balance
         pass
 
     #sätta in pengar (deposit)
     def deposit(self):
+
         pass
 
     #ta up pengar (withdraw)
