@@ -15,6 +15,7 @@ se = Country("Sverige", 10.5, 447425)
 no = Country("Norge", 5.5, 385207)
 island = Country("Island", 0.38, 103000)
 danmark = Country("Danmark", 6.0, 42924)
+romania = Country("Romania",19.5,None)
 
 # Lägg till språk
 se.add_language("Svenska")
@@ -22,9 +23,14 @@ no.add_language("Norska")
 no.add_language("Svenska")
 island.add_language("Isländska")
 danmark.add_language("Danska")
+romania.add_language("Romanian")
 
 # Testa print_info-metoden
 se.print_info()
 no.print_info()
 island.print_info()
 danmark.print_info()
+romania.print_info()
+
+print("************")
+print(" Welcome to your Bank Account")
