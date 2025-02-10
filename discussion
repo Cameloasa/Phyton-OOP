@@ -1,0 +1,44 @@
+Kodgenomgång:
+Klassen SafeStorage
+
+Den har ett privat klassattribut __data, vilket betyder att det är avsett att vara dolt från direkt åtkomst utanför klassen.
+Den har två metoder:
+get(): Returnerar värdet av __data.
+put(data): Uppdaterar __data med det angivna värdet.
+Instans av SafeStorage skapas
+
+python
+Kopiera
+Redigera
+safe = SafeStorage()
+Skapar ett objekt safe av klassen.
+Lagring och hämtning av data
+
+python
+Kopiera
+Redigera
+safe.put("Anakonda")
+x = safe.get()
+Sätter __data till "Anakonda".
+Hämtar och sparar "Anakonda" i variabeln x.
+python
+Kopiera
+Redigera
+safe.put("Boaorm")
+y = safe.get()
+Sätter __data till "Boaorm", vilket ersätter det tidigare värdet "Anakonda".
+Hämtar "Boaorm" och sparar det i y.
+Utskrift av resultaten
+
+python
+Kopiera
+Redigera
+print(x, y)
+Skriver ut:
+nginx
+Kopiera
+Redigera
+Anakonda Boaorm
+Viktigt att notera:
+Privata variabler (__data) kan fortfarande ändras via klassmetoder.
+Ingen faktisk säkerhet: Även om __data är "privat" enligt konvention, kan det fortfarande nås via namnförvrängning (safe._SafeStorage__data).
