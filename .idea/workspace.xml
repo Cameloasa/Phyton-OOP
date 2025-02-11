@@ -48,7 +48,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_bank_account.test_balance.executor": "Run",
+    "Python tests.Python tests for test_bank_account.test_can_pay.executor": "Run",
+    "Python tests.Python tests for test_bank_account.test_deposit_amount_negative.executor": "Run",
+    "Python tests.Python tests for test_bank_account.test_deposit_amount_positiv.executor": "Run",
     "Python tests.Python tests for test_bank_account.test_deposit_positive.executor": "Run",
+    "Python tests.Python tests for test_bank_account.test_withdraw.executor": "Run",
+    "Python tests.Python tests for test_bank_account.test_withdraw_amount.executor": "Run",
+    "Python tests.Python tests for test_bank_account.test_withdraw_amount_bigger_than_balance.executor": "Run",
+    "Python tests.Python tests for test_bank_account.test_withdraw_amount_negative.executor": "Run",
     "Python tests.Python tests for tests.test_bank_account.test_deposit_positive.executor": "Run",
     "Python.animal.executor": "Run",
     "Python.main.executor": "Run",
@@ -65,7 +72,7 @@
       <recent name="C:\TestAutomatisering\ProjectsPyCharm\pythonProjectOOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_bank_account.test_balance">
+  <component name="RunManager" selected="Python tests.Python tests for test_bank_account.test_can_pay">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProjectOOP" />
       <option name="ENV_FILES" value="" />
@@ -88,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_bank_account.test_balance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bank_account.test_can_pay" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectOOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,11 +106,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bank_account.test_balance&quot;" />
+      <option name="_new_target" value="&quot;test_bank_account.test_can_pay&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_bank_account.test_deposit_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bank_account.test_withdraw" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectOOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,30 +121,62 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bank_account.test_deposit_positive&quot;" />
+      <option name="_new_target" value="&quot;test_bank_account.test_withdraw&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_bank_account.test_deposit_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bank_account.test_withdraw_amount" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectOOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_bank_account.test_deposit_positive&quot;" />
+      <option name="_new_target" value="&quot;test_bank_account.test_withdraw_amount&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_bank_account.test_withdraw_amount_bigger_than_balance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjectOOP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_bank_account.test_withdraw_amount_bigger_than_balance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_bank_account.test_withdraw_amount_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjectOOP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_bank_account.test_withdraw_amount_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_bank_account.test_balance" />
-        <item itemvalue="Python tests.Python tests for test_bank_account.test_deposit_positive" />
-        <item itemvalue="Python tests.Python tests for tests.test_bank_account.test_deposit_positive" />
+        <item itemvalue="Python tests.Python tests for test_bank_account.test_can_pay" />
+        <item itemvalue="Python tests.Python tests for test_bank_account.test_withdraw_amount" />
+        <item itemvalue="Python tests.Python tests for test_bank_account.test_withdraw_amount_bigger_than_balance" />
+        <item itemvalue="Python tests.Python tests for test_bank_account.test_withdraw_amount_negative" />
+        <item itemvalue="Python tests.Python tests for test_bank_account.test_withdraw" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739207524491</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bank_account_test">
+      <option name="closed" value="true" />
+      <created>1739270610929</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739270610929</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
